@@ -1,0 +1,14 @@
+[package]
+name = "glue-test"
+version = "0.1.0"
+authors = ["Mark Barbone"]
+edition = "2018"
+
+[dependencies.android_glue]
+git = "https://github.com/rust-windowing/android-rs-glue.git"
+branch = "eventloop-2.0-overhaul"
+
+[package.metadata.android]
+label = "Glue Test"
+build_targets = ["aarch64-linux-android"]
+android_version = 21
