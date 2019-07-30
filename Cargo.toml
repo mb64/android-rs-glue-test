@@ -5,7 +5,7 @@ authors = ["Mark Barbone"]
 edition = "2018"
 
 [dependencies.android_glue]
-git = "https://github.com/rust-windowing/android-rs-glue.git"
+git = "https://github.com/mb64/android-rs-glue.git"
 branch = "eventloop-2.0-overhaul"
 
 [package.metadata.android]
